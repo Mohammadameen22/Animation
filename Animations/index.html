@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script type="text/javascript" src="js/JQ.js"></script>
+<script type="text/javascript">
+  
+$("document").ready(function(){
+
+$("#b1").click(function(){
+
+$(".aqrp").css("animation" , "rotate 5s linear infinite");
+
+});
+
+$("#b2").click(function(){
+
+$(".aqrp").css("animation-play-state" , "paused");
+
+});
+  
+
+
+
+
+
+
+})
+
+
+</script>
+
+
+
+<style type="text/css">
+	
+
+body{
+  background-image: url(img/bg2.jpg);
+
+}
+
+   @keyframes mymove{
+
+   0%{	visibility: visible;
+   transform:  scale(0.8,0.8);}
+
+   50%{
+   		
+   transform:  scale(1.5,1.5);}
+
+ 70%{
+   transform:  scale(1.3,1.3);}
+
+	 85%{
+   transform:  scale(1.3,1.3);}
+
+    90%{
+   transform:  scale(1.3,1.3);}
+
+    95%{
+   transform:  scale(1.3,1.3);}
+
+
+    100%{
+   transform:  scale(1.3,1.3);}
+
+	}
+
+.p{
+	color: #33adff;
+	font-size: 50px;
+	/*transform:  scale(0.5);
+	transition-duration: 3s;*/
+	 animation: mymove 3s ease-in-out infinite  ;
+	 animation-delay: 1s;
+   font-weight: bolder;
+   letter-spacing: 5px;
+	
+
+}
+
+.Fdiv {
+  width: 350px;
+  height: 200px;
+  position :absolute;
+  left: 525px;
+  top: 600px;
+  visibility: hidden;
+  border:2px solid red;
+}
+
+.red {
+  top:-100px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius:50%;
+  background-color: red;
+  float: left;
+  position: absolute;
+  animation: example 2.3s infinite;
+  animation-delay: 0.2s;
+}
+.blue {
+  top:-100px;
+  left: 67px;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius:50%;
+  background-color: blue;
+  float: left;
+  position: absolute;
+  animation: example 2.3s infinite;
+  animation-delay: 0.3s;
+}
+
+.green {
+  top:-100px;
+  left: 130px;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius:50%;
+  background-color: green;
+  float: left;
+  position: absolute;
+  
+  animation: example 2.3s infinite;
+ animation-delay: 0.4s;
+}
+.pink {
+  top:-100px;
+  left: 195px;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius:50%;
+  background-color: pink;
+  float: left;
+  position: absolute;
+  animation: example 2.3s infinite;
+  animation-delay: 0.2s;
+}
+.black {
+  top:-100px;
+  left: 260px;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius:50%;
+  background-color: black;
+  float: left;
+  position: absolute;
+  animation: example 2.3s infinite;
+  animation-delay: 0.3s;
+}
+
+.yellow {
+  top:-100px;
+  left: 325px;
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  border-radius:50%;
+  background-color: yellow;
+ float: left;
+  position: absolute;
+  animation: example 2.3s infinite;
+  animation-delay: 0.4s;
+}
+
+.lightblue {
+  top:-100px;
+  left:390px;
+  width: 50px;
+  height: 50px;
+ margin-left: 5px;
+  border-radius:50%;
+  background-color: lightblue;
+  float: left;
+  position: absolute;
+  animation: example 2.3s ease infinite ;
+  animation-delay: 0.5s;
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {  top:0px;}
+  20%  {  top:300px;}
+  40%  { top:240px;}
+  60%  { top:300px;}
+  80% {  top:-100px;}
+  90% {  top:-100px;}
+  100% {  top:-100px;}
+ 
+}
+
+.heart{
+	    		font-size: 200px;
+	    		margin-left: 150px;
+	    		animation: pulses 2.8s ease infinite;
+	    	}
+
+.heartdiv{
+				width: 500px;
+				height: 200px;
+				position: absolute;
+				left: 420px;
+				top: 1070px;
+			  
+			
+			}
+
+@keyframes pulses {
+	    		
+				0%{
+	    			transform: scale(1);
+	    		}
+				8%{
+					transform: scale(1.3);
+				}
+				16%{transform: scale(1);
+				}
+				24%{ transform: scale(1.3);
+				}
+				32%{ transform: scale(1);
+				}
+				40%{ transform: scale(1);
+				}
+				48%{ transform: scale(1.3);
+				}
+				56%{ transform: scale(1);
+				}
+				64%{ transform: scale(1.3);
+				}
+				85%{ transform: scale(1);
+				}
+				87%{ transform: scale(1);
+				}
+				89%{ transform: scale(1);
+				}
+				93%{ transform: scale(1);
+				}
+				95%{ transform: scale(1);
+				}
+				96%{ transform: scale(1);
+				}
+				97%{ transform: scale(1);
+				}
+				98%{ transform: scale(1);
+				}
+				100%{ transform: scale(1);
+				}
+      }
+
+.cont{
+	position :absolute;
+  left: 425px;
+  top: 10px;
+  width: 500px;
+  height: 500px;
+}
+
+.clockR{
+	width: 70px;
+	color: green;
+	animation: rotate 3s infinite;
+}
+
+
+#Mdiv{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: 1500px;
+  left:450px;
+  text-align: center;
+  margin-bottom: 300px;
+
+}
+
+#forword{
+	background-color:  #00CED2;
+	height: 60px;
+	width: 420px;
+	line-height: 60px;
+  border-radius: 15px;
+}
+
+#normal{
+background-color:  #FF623F;
+  height: 60px;
+  width: 420px;
+  line-height: 60px;
+  border-radius: 15px;
+
+}
+
+#Mdiv:hover #forword{
+  animation: scal 2.5s  forwards;
+}
+
+#Mdiv:hover #normal{
+  animation: scal 2.5s ;
+
+}
+
+
+@keyframes scal {
+
+0%{ transform:scale(1) ; }
+100%{ transform:scale(1.5) ; }
+
+
+
+}
+
+.Ldiv{
+  position: relative;
+  top: 1500px;
+  left:465px;
+  width: 500px;
+  height: 500px;
+  background-image: url();
+}
+
+.aqrp{
+  position: absolute;
+  top: 195px;
+  left: 97px;
+  height: 12px;
+  width:100px;
+  background-color: white;
+  border-radius: 10px;
+  transform-origin: top right;
+  /*animation: rotate 5s linear infinite;*/
+}
+
+
+
+@keyframes rotate {
+   
+    100%{
+      transform: rotate(360deg);
+      }
+ 
+ }
+ /* .aqrp:hover{
+    animation-play-state: paused;
+  }*/
+
+.redcol{
+  color: red;
+  font-size: 190px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="cont"> 
+	<div class="red"></div>
+	<div class="blue"></div>
+	<div class="green"></div>
+	<div class="pink"></div>
+	<div class="black"></div>
+	<div class="yellow"></div>
+	<div class="lightblue"></div>
+</div>
+<br>
+
+
+ <div class="Fdiv">
+
+	<p class="p">BOUNCE IN</p>
+
+</div> 
+
+
+ <div class="heartdiv "> 
+  		<i class="fas fa-heart redcol heart"></i>
+	</div>
+ 
+
+ <div id="Mdiv">
+	<p style="color: white; font-size: 25px; font-weight: bolder; letter-spacing: 5px;">FORWORDS</p>
+	<div id="forword"><p >The scales and stay</p></div>
+	<p style="color: white; font-size: 25px; font-weight: bolder; letter-spacing: 5px;">NORMAL</p>
+	<div id="normal"> <p>The scales and go back</p></div>
+</div> 
+
+
+
+<div class="Ldiv">
+  
+<div><img class="hov" src="img/clock.jpg" height="400" width="400"></div>
+
+<div class=""><hr class="aqrp"></div>
+
+<button id="b1">Start</button>
+<button id="b2">stop</button>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
